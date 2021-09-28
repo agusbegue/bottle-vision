@@ -7,4 +7,4 @@ docker run -p 8501:8501 --mount type=bind,source=/home/ubuntu/bottle_cv/cv/od_mo
 
 
 
-curl -F "image=@/home/ubuntu/bottle_cv/tests/coca512.png" -X POST http://127.0.0.1:8501/v1/models/efficientdet:predict -o /home/ubuntu/bottle_cv/tests/prediction
+curl -F "image=@/home/ubuntu/bottle_cv/tests/coca512.png" -X POST http://127.0.0.1:8501/v1/models/efficientdet:predict -o /home/ubuntu/bottle_cv/data/prediction
